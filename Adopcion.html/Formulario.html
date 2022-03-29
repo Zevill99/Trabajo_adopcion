@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Adopcion</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+        </nav>
+    </header>
+    <center>
+        <h1>
+            Refugio Chayanne: Adopta una Mascota
+        </h1>
+        <p>
+            <font SIZE=4>¿Buscas adoptar y dar hogar a un animal rescatado? <br>
+                 Todos ellos eran animales abandonados en las calles que fueron rescatados y rehabilitados, recibiendo atención para mejorar su salud física y emocional. <br>
+                Todos están listos para encontrar a una nueva familia que los quiera y los cuide.</font>
+        </p>   
+    </center> 
+    <br><br>
+    <center>
+        <h2>Formulario de Adopcion</h2>
+        <form action="input">
+            <label for="nombre"><strong>Nombre:</strong> </label>
+            <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre">
+            <label for="apellido"><strong>Apellido:</strong> </label>
+            <input type="text" placeholder="Escribe tu apellido" name="apellido" id="apellido">
+        </form>
+        <h3>Datos de Contacto</h3>
+        <form action="input">
+            <label for="mail"><strong>Mail:</strong> </label>
+            <input type="email" placeholder="Escribe tu mail" name="mail" id="mail">
+            <label for="celular"><strong>Celular:</strong> </label>
+            <select name="Animales" id="">
+                <option value="Chile">+56</option>
+                <option value="Argentina">+54</option>
+                <option value="Peru">+52</option>
+                
+            </select>
+            <input type="text" placeholder="Escribe tu celular" name="celular" id="celular">
+        </form>
+        <h3>Elige tu Mascota</h3>
+        <form action="input">
+            <select name="Animales" id="">
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option>
+            </select>
+            <label for="nombremascota"><strong>Nombre:</strong> </label>
+            <input type="text" placeholder="Nombre de la mascota" name="nombremascota" id="nombremascota">
+        </form>
+        <br><br><br>
+        <button><a href="Gracias.html">Enviar Formulario</a></button>
+    </center>
+</body>
+</html>

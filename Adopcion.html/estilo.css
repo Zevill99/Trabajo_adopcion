@@ -1,0 +1,42 @@
+body {
+    height: 400px;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  div.galeria{
+      margin: 10px 20px;
+      box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 19);
+      float: left;
+      width: 350px;
+  }
+  div.galeria img{
+      width: 100%;
+      height: auto;
+  }
+
+  div.galeria:hover{
+      border: 1px solid lightcoral;
+      transform: rotate(-3deg);
+  }
+
+  div.pie{
+      text-align: center;
+      padding: 10px;
+  }
+
+nav >a{
+    color: rgb(179, 19, 19);
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav >a:hover{
+    text-decoration: underline;
+}
+
